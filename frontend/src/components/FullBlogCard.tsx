@@ -35,9 +35,9 @@ export const FullBlogCard = function ({
 
           {/* Content */}
           <div>
-            <p className="text-lg text-gray-600 dark:text-white break-words m-4">
+            <div className="text-lg text-gray-600 dark:text-white break-words m-4">
               {parse(content)}
-            </p>
+            </div>
           </div>
 
           {/* Author */}
