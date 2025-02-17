@@ -36,11 +36,7 @@ export const blogSelector = selectorFamily({
   key: "blogSelector",  // Unique key for the selector
   get: (id) => async () => {
     try {
-      const response = await axios.get(`${BACKEND_URL}/api/v1/blog/${id as string}`, {
-        headers: {
-          Authorization: localStorage.getItem("token"),  // Add a space between "Bearer" and the token
-        }
-      });
+      const response = await axios.get(`${BACKEND_URL}/api/v1/blog/bloggy/${id as string}`);
       return response.data.post;  // Return the blog data
     } catch (error) {
       console.error("Failed to fetch blog:", error);
