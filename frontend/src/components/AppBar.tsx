@@ -149,7 +149,7 @@ const {check}=useCheck()
           onClick={function(){
             navigate("/")
           }}
-            className="text-black hover:bg-gray-300 hover:dark:bg-white dark:text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            className="text-black hover:bg-gray-300 hover:dark:bg-white dark:text-white hover:dark:text-black block px-3 py-2 rounded-md text-base font-medium"
           >
             Home
           </button>
@@ -157,7 +157,7 @@ const {check}=useCheck()
              onClick={function(){
               navigate("/blogs")
             }}
-            className="text-black hover:bg-gray-300 hover:dark:bg-white dark:text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            className="text-black hover:bg-gray-300 hover:dark:bg-white dark:text-white hover:dark:text-black block px-3 py-2 rounded-md text-base font-medium"
           >
            Blogs
           </button>
