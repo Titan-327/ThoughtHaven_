@@ -20,7 +20,9 @@ export const FullBlogCard = function ({
 
   return (
     <div className="dark:bg-slate-700 flex flex-col items-center justify-center min-h-screen px-4 md:px-6">
-      <div className="flex flex-col md:flex-row min-h-12 w-full md:w-3/5 border-2 border-black mx-auto m-5 p-4 md:p-6">
+      <div className="flex flex-col md:flex-row min-h-12 w-full md:w-3/5 border-2 shadow-2xl rounded-xl border-black mx-auto m-5 p-4 md:p-6 
+    transition-transform duration-300 ease-in-out transform will-change-transform hover:scale-105 dark:shadow-lg dark:shadow-zinc-300">
+
         {/* Left Side: Title, Date, Content, Author */}
         <div className="md:w-2/3 w-full">
           {/* Title */}
